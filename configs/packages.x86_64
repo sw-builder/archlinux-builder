@@ -33,15 +33,19 @@ pulseaudio-bluetooth
 bluez
 bluez-utils
 
-# desktop
+# video
 nvidia
 xf86-video-amdgpu
 xf86-video-ati
 xf86-video-fbdev
 xf86-video-vesa
+
 sddm
 plasma-meta
 kde-applications
+dwm
+picom
+feh
 
 # misc
 polkit
@@ -56,7 +60,6 @@ usbutils
 btrfs-progs
 dosfstools
 exfatprogs
-e2fsprogs
 e2fsprogs
 ntfs-3g
 
@@ -73,4 +76,4 @@ ctags
 wget
 curl
 fcitx-googlepinyin
-
+neofetch
