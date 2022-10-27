@@ -56,6 +56,9 @@ virt-manager
 qemu-full
 dnsmasq
 
+mtools
+squashfs-tools
+udftools
 usbutils
 btrfs-progs
 dosfstools
