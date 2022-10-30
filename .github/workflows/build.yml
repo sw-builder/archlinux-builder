@@ -21,6 +21,7 @@ jobs:
           ./mkrepo
           mkdir -p work out
           ./mkarchiso -v -w work -o out ./configs/
+          rm -rf work
       - uses: actions/upload-artifact@v3
         with:
           name: archiso
