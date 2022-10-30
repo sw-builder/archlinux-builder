@@ -13,7 +13,8 @@ jobs:
       - run: |
           curl -L https://raw.githubusercontent.com/apache/flink/master/tools/azure-pipelines/free_disk_space.sh | bash
       - uses: actions/checkout@v3
-      - run: |
+      - name: Build ISO
+        run: |
           pacman -Syy
           pacman -S --noconfirm archiso git
           ./mkrepo
