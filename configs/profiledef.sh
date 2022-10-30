@@ -12,6 +12,6 @@ bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
            'uefi-ia32.grub.eltorito' 'uefi-x64.grub.eltorito')
 arch="x86_64"
 pacman_conf="pacman.conf"
-airootfs_image_type="squashfs"
-airootfs_image_tool_options=('-comp' 'zstd')
+airootfs_image_type="erofs"
+irootfs_image_tool_options=('-zlz4hc,12')
 
