@@ -10,7 +10,8 @@ jobs:
       image: archlinux
       options: --privileged
     steps:
-      - run: |
+      - name: Free Space
+        run: |
           curl -L https://raw.githubusercontent.com/apache/flink/master/tools/azure-pipelines/free_disk_space.sh | bash
       - uses: actions/checkout@v3
       - name: Build ISO
