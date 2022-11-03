@@ -48,14 +48,6 @@ picom
 feh
 
 # misc
-polkit
-sudo
-man-db
-man-pages
-virt-manager
-qemu-full
-dnsmasq
-
 mtools
 squashfs-tools
 udftools
@@ -65,6 +57,16 @@ dosfstools
 exfatprogs
 e2fsprogs
 ntfs-3g
+
+polkit
+sudo
+man-db
+man-pages
+nmap
+
+virt-manager
+qemu-full
+dnsmasq
 
 zsh
 neovim
@@ -80,7 +82,7 @@ wget
 curl
 fcitx-googlepinyin
 neofetch
-nmap
 
 npm
 cmake
+
