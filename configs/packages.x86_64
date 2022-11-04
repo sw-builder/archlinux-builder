@@ -12,6 +12,7 @@ base
 base-devel
 linux
 linux-firmware
+sof-firmware
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
