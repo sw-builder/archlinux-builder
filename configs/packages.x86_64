@@ -19,6 +19,7 @@ nbd
 
 # network
 networkmanager
+networkmanager-openconnect
 iproute2
 openssh
 
@@ -70,6 +71,7 @@ dnsmasq
 
 zsh
 neovim
+ranger
 xclip
 python-pynvim
 git
