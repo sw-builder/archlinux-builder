@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Build ISO
         run: |
-          pacman -Syy
+          pacman -Syu --noconfirm
           pacman -S --noconfirm archiso git
           ./mkrepo
           mkdir -p work out
