@@ -47,7 +47,7 @@ sddm
 plasma-meta
 kde-applications
 dwm
-picom
+custom/picom
 feh
 
 # misc
