@@ -13,8 +13,8 @@ sed -E -i '/^#\s*%wheel.*NOPASSWD/{s/^#\s*//}' /etc/sudoers
 
 mkdir -p local_repo && chmod 777 -R local_repo
 pkgs=(
-    https://gitee.com/xundaoxd/dwm
     https://aur.archlinux.org/zfs-linux.git
+    https://github.com/xundaoxd/dwm.git
     https://github.com/xundaoxd/picom
 )
 for pkg in ${pkgs[@]}; do
