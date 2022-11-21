@@ -20,7 +20,6 @@ nbd
 
 # network
 networkmanager
-networkmanager-openconnect
 iproute2
 openssh
 
@@ -55,7 +54,6 @@ polkit
 sudo
 man-db
 man-pages
-nmap
 
 mtools
 squashfs-tools
@@ -86,6 +84,7 @@ neofetch
 npm
 cmake
 
+nmap
 virt-manager
 qemu-full
 dnsmasq
