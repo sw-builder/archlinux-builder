@@ -43,8 +43,12 @@ xf86-video-vesa
 
 xorg
 sddm
-dwm
-picom
+bspwm
+sxhkd
+polybar
+xdo
+alacritty
+rofi
 feh
 
 # misc
