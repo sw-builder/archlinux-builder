@@ -41,13 +41,10 @@ xf86-video-ati
 xf86-video-fbdev
 xf86-video-vesa
 
-xorg-xrandr
+xorg
 sddm
 plasma-meta
 kde-applications
-dwm
-custom/picom
-feh
 
 # misc
 polkit
