@@ -21,3 +21,6 @@ systemctl enable sddm
 systemctl enable sshd
 systemctl enable bluetooth
 
+su - xundaoxd -c 'install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc'
+su - xundaoxd -c 'install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc'
+
