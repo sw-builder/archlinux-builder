@@ -41,6 +41,7 @@ xf86-video-ati
 xf86-video-fbdev
 xf86-video-vesa
 
+# desktop
 xorg
 sddm
 bspwm
@@ -71,23 +72,12 @@ zsh
 neovim
 ranger
 xclip
-python-pynvim
 git
-firefox
 unzip
 ripgrep-all
-python-pip
 ctags
 wget
 curl
-fcitx-googlepinyin
 neofetch
 
-npm
-cmake
-
-nmap
-virt-manager
-qemu-full
-dnsmasq
-
+firefox
