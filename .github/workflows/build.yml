@@ -19,7 +19,6 @@ jobs:
           pacman-key --populate
           pacman -Syu --noconfirm
           pacman -S --noconfirm base-devel archiso git
-          ./mkrepo
           mkdir -p work out
           ./mkarchiso -v -w work -o out ./configs/
           rm -rf work

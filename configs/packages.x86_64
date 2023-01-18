@@ -66,6 +66,7 @@ dosfstools
 exfatprogs
 e2fsprogs
 ntfs-3g
+zfs-linux
 
 zsh
 neovim
