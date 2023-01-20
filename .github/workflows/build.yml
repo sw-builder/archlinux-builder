@@ -22,6 +22,7 @@ jobs:
           mkdir -p work out
           ./mkarchiso -v -w work -o out ./configs/
           rm -rf work
+          md5sum out/*
       - uses: actions/upload-artifact@v3
         with:
           name: archiso
