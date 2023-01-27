@@ -44,6 +44,8 @@ xf86-video-vesa
 # desktop
 xorg
 sddm
+plasma-meta
+kde-applications
 bspwm
 sxhkd
 polybar
