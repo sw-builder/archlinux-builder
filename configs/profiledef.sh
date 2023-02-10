@@ -15,3 +15,8 @@ pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
 airootfs_image_tool_options=('-comp' 'zstd')
 
+file_permissions=(
+    ["/home/xundaoxd/.config/bspwm/bspwmrc"]="xundaoxd:xundaoxd:700"
+    ["/home/xundaoxd/.config/sxhkd/sxhkdrc"]="xundaoxd:xundaoxd:700"
+)
+
