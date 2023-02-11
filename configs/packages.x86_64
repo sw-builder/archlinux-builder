@@ -49,6 +49,7 @@ kde-applications
 bspwm
 sxhkd
 polybar
+picom
 xdo
 alacritty
 rofi
