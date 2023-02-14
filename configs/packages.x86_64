@@ -54,6 +54,10 @@ xdo
 alacritty
 rofi
 feh
+fcitx-im
+fcitx-googlepinyin
+fcitx-configtool
+breeze
 
 # misc
 polkit
