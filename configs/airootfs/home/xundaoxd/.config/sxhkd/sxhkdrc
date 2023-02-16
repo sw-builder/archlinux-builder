@@ -121,5 +121,5 @@ super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 Print
-    ffmpeg -f x11grab -i $DISPLAY -vframes 1 -y ~/Pictures/screen.png
+    ffmpeg -f x11grab -i $DISPLAY -vframes 1 -y ~/Pictures/screen.png; notify-send 'Screen captured'
 
