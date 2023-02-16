@@ -53,6 +53,7 @@ alacritty
 rofi
 feh
 ranger
+notification-daemon
 fcitx-im
 fcitx-googlepinyin
 fcitx-configtool
