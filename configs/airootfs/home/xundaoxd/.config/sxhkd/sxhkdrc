@@ -123,3 +123,6 @@ super + {Left,Down,Up,Right}
 Print
     ffmpeg -f x11grab -i $DISPLAY -vframes 1 -y ~/Pictures/screen.png; notify-send -t 1500 'Screen captured'
 
+super + q
+    loginctl lock-session
+
