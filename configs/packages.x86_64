@@ -49,6 +49,8 @@ kde-applications
 bspwm
 sxhkd
 polybar
+i3lock
+xss-lock
 picom
 xdo
 alacritty
