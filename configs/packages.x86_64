@@ -43,7 +43,7 @@ xf86-video-vesa
 
 # desktop
 xorg
-xrog-xprop
+xorg-xprop
 notification-daemon
 
 sddm
