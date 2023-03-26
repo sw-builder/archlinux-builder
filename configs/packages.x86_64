@@ -43,6 +43,9 @@ xf86-video-vesa
 
 # desktop
 xorg
+xrog-xprop
+notification-daemon
+
 sddm
 plasma-meta
 kde-applications
@@ -52,12 +55,10 @@ polybar
 i3lock
 xss-lock
 picom
-xdo
 alacritty
 rofi
 feh
 ranger
-notification-daemon
 fcitx-im
 fcitx-googlepinyin
 fcitx-configtool
