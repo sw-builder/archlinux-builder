@@ -124,7 +124,7 @@ super + q
     loginctl lock-session
 
 Print
-    flameshot screen
+    flameshot screen -p ~/Pictures
 
 shift + Print
     flameshot gui
