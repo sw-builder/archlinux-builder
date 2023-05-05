@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="archiso"
-iso_label="archiso_$(date +%Y%m)"
+iso_label="arch_$(date +%Y%m)"
 iso_publisher="xundaoxd <https://github.com/xundaoxd>"
 iso_application="Arch Linux Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
