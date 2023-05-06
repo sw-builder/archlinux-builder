@@ -9,7 +9,7 @@ arch-install-scripts
 # kernel
 base
 base-devel
-linux
+linux-lts
 linux-firmware
 sof-firmware
 pv
