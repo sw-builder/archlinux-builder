@@ -47,8 +47,6 @@ xorg-xprop
 notification-daemon
 
 sddm
-plasma-meta
-kde-applications
 bspwm
 sxhkd
 polybar
