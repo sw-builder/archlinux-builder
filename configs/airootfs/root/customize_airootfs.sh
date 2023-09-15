@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 hostname="archiso"
@@ -20,4 +20,6 @@ systemctl enable NetworkManager
 systemctl enable sddm
 systemctl enable sshd
 systemctl enable bluetooth
+
+echo -e "demo1234\ndemo1234" | passwd root
 
