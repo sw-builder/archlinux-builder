@@ -13,13 +13,14 @@ sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist
 pacman-key --init
 pacman-key --populate
 
-usermod -aG wheel,input,video,audio,kvm xundaoxd
-sed -E -i '/^#\s*%wheel.*NOPASSWD/{s/^#\s*//}' /etc/sudoers
-
 systemctl enable NetworkManager
 systemctl enable sddm
 systemctl enable sshd
 systemctl enable bluetooth
 
+useradd -m -s /bin/zsh xundaoxd
+usermod -aG wheel,input,video,audio,kvm xundaoxd
+sed -E -i '/^#\s*%wheel.*NOPASSWD/{s/^#\s*//}' /etc/sudoers
+echo -e "demo1234\ndemo1234" | passwd xundaoxd
 echo -e "demo1234\ndemo1234" | passwd root
 
