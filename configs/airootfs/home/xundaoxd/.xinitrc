@@ -1,0 +1,6 @@
+[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
+xsetroot -cursor_name left_ptr
+
+xss-lock -- i3lock -n &
+exec bspwm
+

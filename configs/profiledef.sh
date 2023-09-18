@@ -19,4 +19,7 @@ file_permissions=(
     ["/home/xundaoxd/"]="1000:1000:0600"
     ["/home/xundaoxd/.config/bspwm/bspwmrc"]="1000:1000:0700"
     ["/home/xundaoxd/.config/sxhkd/sxhkdrc"]="1000:1000:0700"
+    ["/home/xundaoxd/.xinitrc"]="1000:1000:0700"
+    ["/home/xundaoxd/.bash_profile"]="1000:1000:0700"
+    ["/home/xundaoxd/.zprofile"]="1000:1000:0700"
 )

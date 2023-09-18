@@ -43,10 +43,10 @@ xf86-video-vesa
 
 # desktop
 xorg
+xorg-xinit
 xorg-xprop
 notification-daemon
 
-sddm
 bspwm
 sxhkd
 polybar

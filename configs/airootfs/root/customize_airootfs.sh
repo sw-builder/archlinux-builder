@@ -14,7 +14,6 @@ pacman-key --init
 pacman-key --populate
 
 systemctl enable NetworkManager
-systemctl enable sddm
 systemctl enable sshd
 systemctl enable bluetooth
 
