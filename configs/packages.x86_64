@@ -43,8 +43,8 @@ xf86-video-vesa
 
 # desktop
 xorg
-xorg-xinit
 xorg-xprop
+sddm
 notification-daemon
 
 bspwm
