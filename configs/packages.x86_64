@@ -46,7 +46,6 @@ polkit
 sudo
 man-db
 man-pages
-libvirt
 qemu-full
 
 mtools

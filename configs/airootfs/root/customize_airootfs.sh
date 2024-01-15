@@ -17,7 +17,6 @@ systemctl enable NetworkManager
 systemctl enable sshd
 systemctl enable bluetooth
 systemctl enable sddm
-systemctl enable libvirtd
 
 useradd -m -s /bin/zsh xundaoxd
 usermod -aG wheel,input,video,audio,kvm xundaoxd
