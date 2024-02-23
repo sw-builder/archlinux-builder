@@ -1,8 +1,6 @@
 name: ci
 
 on:
-  schedule:
-    - cron:  '0 0 * * *'
   push:
     branches:
       - master
@@ -22,7 +20,7 @@ jobs:
           pacman -Syu --noconfirm
           pacman -S --noconfirm base-devel archiso git
           mkdir -p work out
-          mkarchiso -v -w work -o out ./configs/
+          mkarchiso -v -w work -o out .
           rm -rf work
           md5sum out/*
       - uses: actions/upload-artifact@v3
